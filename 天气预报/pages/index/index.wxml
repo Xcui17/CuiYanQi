@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="body">
+    <input type="text" placeholder="请输入城市名" bindinput="bindKeyInput" />
+    <view class="icon">
+        <icon type="search" size="25"></icon>
+    </view>
+    <button bindtap="search">查询</button>
+    <view class="report">
+        <view>{{city}}</view>
+        <view>{{text}}</view>
+        <image src="{{imgUrl}}"></image>
+        <view>{{temp}}</view>
+        <view>{{wind}} {{windScale}}</view>
+    </view>
+</view>
