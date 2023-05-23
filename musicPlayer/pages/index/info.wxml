@@ -1,0 +1,59 @@
+<scroll-view class="content-info" scroll-y>
+  <!-- 轮播图 -->
+  <swiper class="content-info-slide" indicator-color="rgba(255,255,255,.5)" indicator-active-color="#fff" indicator-dots circular autoplay>
+    <swiper-item>
+      <image src="/images/banner.jpg" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner1.jpg" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner.jpg" />
+    </swiper-item>
+  </swiper>
+  <!-- 功能按钮 -->
+  <view class="content-info-portal">
+    <view>
+      <image src="/images/04.png" />
+      <text>私人FM</text>
+    </view>
+    <view>
+      <image src="/images/05.png" />
+      <text>每日歌曲推荐</text>
+    </view>
+    <view>
+      <image src="/images/06.png" />
+      <text>云音乐新歌榜</text>
+    </view>
+  </view>
+  <!-- 热门音乐 -->
+  <view class="content-info-list">
+    <view class="list-title">推荐歌曲</view>
+    <view class="list-inner">
+      <view class="list-item">
+        <image src="/images/阴天快乐.jpg" />
+        <view>阴天快乐</view>
+      </view>
+      <view class="list-item">
+        <image src="/images/不要说话.jpg" />
+        <view>不要说话</view>
+      </view>
+      <view class="list-item">
+        <image src="/images/红玫瑰.jpg" />
+        <view>红玫瑰</view>
+      </view>
+      <view class="list-item">
+        <image src="/images/富士山下.jpg" />
+        <view>富士山下</view>
+      </view>
+      <view class="list-item">
+        <image src="/images/暗号.jpg" />
+        <view>暗号</view>
+      </view>
+      <view class="list-item">
+        <image src="/images/花海.jpg" />
+        <view>花海</view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
